@@ -1,69 +1,82 @@
-@media (max-width: 767px){
-    body {
-        background-color: #73A55A;
-        margin: 0 auto;
-    }
-    .image {
-        display: flex;
-        margin-left: 300px;
-        margin-top: 100px;
-    }
-    .quatro{
-    color: whitesmoke;
-    margin-top: -550px;
-    margin-left: 300px;
-    font-size: 400px;
-    }
-    .quatr0{
-    color: whitesmoke;
-    margin-top: -730px;
-    margin-left: 900px;
-    font-size: 400px;
-    }
+@media (max-width: 767px) {
+  body {
+    background-color: #73a55a;
+    margin: 0px;
+  }
+  .container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .image2 {
+    width: 300px;
+    height: 300px;
+  }
+  .image {
+    display: none;
+  }
+  .quatr0 {
+    display: none;
+  }
+  .quatro {
+    display: none;
+  }
 }
-@media (min-width: 768px) and (max-width: 1023px){
-    body {
-        background-color: #73A55A;
-        margin: 0 auto;
-    }
-    .image {
-        margin-left: 300px;
-        margin-top: 100px;
-        display: flex;
-    }
-    .quatro{
+@media (min-width: 768px) and (max-width: 1023px) {
+  body {
+    background-color: #73a55a;
+    margin: 0 auto;
+  }
+  .container {
+    
+  }
+  .image {
+    margin-left: 300px;
+    margin-top: 100px;
+    display: flex;
+  }
+  .quatro {
     color: whitesmoke;
     margin-top: -550px;
     margin-left: 300px;
     font-size: 400px;
-    }
-    .quatr0{
+  }
+  .quatr0 {
     color: whitesmoke;
     margin-top: -730px;
     margin-left: 900px;
     font-size: 400px;
-    }
+  }
+  .image2 {
+    display: none;
+  }
 }
-@media (min-width: 1024px){
-    body {
-        background-color: #73A55A;
-        margin: 0 auto;
-    }
-    .image {
-        margin-left: 300px;
-        margin-top: 100px;
-        display: flex;
-    }
-    .quatro{
+@media (min-width: 1024px) {
+  body {
+    background-color: #73a55a;
+    margin: 0 auto;
+  }
+  .image {
+    margin-left: 300px;
+    margin-top: 100px;
+    display: flex;
+  }
+  .quatro {
     color: whitesmoke;
     margin-top: -550px;
     margin-left: 300px;
     font-size: 400px;
-    }
-    .quatr0{
+  }
+  .quatr0 {
     color: whitesmoke;
     margin-top: -730px;
     margin-left: 900px;
     font-size: 400px;
-    }
+  }
+  .image2 {
+    display: none;
+  }
 }
