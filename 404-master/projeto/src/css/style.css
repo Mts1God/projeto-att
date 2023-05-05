@@ -223,19 +223,19 @@ body{
     .titulo img{
         display: flex;
         width: 90%;
-        padding-top: 5%;
         padding-left: 5%;
         
     }
     .container{
-        display: flex;
         width: 100%;
+        display: flex;
     }
     .container2{
         display: flex;
         width: 50%;
     }
     .container3{
+        padding-top: 1%;
         width: 50%;
         padding-right: 4%;
         font-family: 'Montserrat';
@@ -243,14 +243,13 @@ body{
     .img img {
         width: 100%;
         padding-left: 5%;
-        padding-top: 25%;
+        
     }
     .texto1{
         color: black;
         font-size:  20px;
         width: 90%; 
         text-align: justify;
-        margin-top: 12%; 
         margin-left: 10%;
         
     }
@@ -286,6 +285,23 @@ body{
         margin-top: 3%; 
         margin-left: 10%;
     }
+    .texto6{
+        color: black;
+        font-size:  20px;
+        width: 90%;  
+        text-align: justify;
+        margin-top: 3%; 
+        margin-left: 10%;
+    }
+    .texto7{
+        color: black;
+        font-size:  20px;
+        width: 90%;  
+        text-align: justify;
+        margin-top: 3%; 
+        margin-left: 10%;
+    }
+    
     .container-txt{
         display: flex;
         padding-right: 4%;
@@ -293,6 +309,16 @@ body{
         flex-direction: column;
         justify-content: center;
         text-align: center;
+        display: none;
+    }
+    .text{
+        color: black;
+        font-size:20px;
+        width: 100%; 
+        text-align: justify;
+        margin-top: 2%;
+        width: 100%;
+        font-family: 'Montserrat'; 
     }
     .text1{
         color: black;
@@ -312,11 +338,5 @@ body{
         margin-top: 2%;
         width: 100%;
         font-family: 'Montserrat'; 
-    }
-    .texto6 {
-        display: none;
-    }
-    .texto7{
-        display: none;
     }
 }
